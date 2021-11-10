@@ -3,14 +3,14 @@ module.exports = {
   ExpressServer: true,//If you wanted to make the website run or not
   DefaultPrefix: process.env.Prefix || "-", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
-  SupportServer: "https://discord.gg/SchEbTFaNM", //Donot change..
-  Token: process.env.Token || "Your_Token_Here", //Discord Bot Token
-  ClientID: process.env.Discord_ClientID || "Your_Client_Id_Here", //Discord Client ID
+  SupportServer: "https://discord.gg/testeefhj", //Donot change..
+  Token: process.env.Token || "ODc5NTcyMTE3MjI0NTY2ODE0.YSRrXg.GiWfYKZdgO_WapRPWs_XNeyvsmY", //Discord Bot Token
+  ClientID: process.env.Discord_ClientID || "879572117224566814", //Discord Client ID
   ClientSecret: process.env.Discord_ClientSecret || "Your_Client_Secret_Here", //Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], //Discord OAuth2 Scopes
   CallbackURL: "/api/callback", //Discord OAuth2 Callback URL
   "24/7": false, //If you want the bot to be stay in the vc 24/7
-  CookieSecret: "ChangeIt", //Safety for your bot its like a password
+  CookieSecret: "Safety", //Safety for your bot its like a password
   IconURL:
     "https://media.discordapp.net/attachments/892329976114864149/892424875082407976/image0.gif", //URL of all embed author icons | Dont edit unless you dont need that Music CD Spining
   EmbedColor: "RANDOM", //Color of most embeds | Dont edit unless you want a specific color instead of a random one each time
